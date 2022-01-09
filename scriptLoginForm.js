@@ -33,7 +33,7 @@ function check(){
   var count = 0;
   var readFile = new XMLHttpRequest();
   if (username.value == "Mahdi" && password.value == "1234") {
-    location.replace("profile.html");
+    location.replace("home.html");
     count+=1;         
   }     
   if(count == 0){
