@@ -255,7 +255,18 @@ button[type=plus] {
   text-align: center;
 }
 
-div.register2 {
+button[type=plus1] {
+  width: 300px;
+  background-color: #257F69;
+  color: #000000;
+  padding: 7px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Oxygen', sans-serif;
+}
+
+div.register3 {
   width: 350px;
   height: 100px;
   margin: auto;
@@ -280,13 +291,13 @@ h2 {
   color: #257F69;
 }
 .login {
-  background-color: #FFFFFF;
+  background-color: #EFEFEF;
   width: 700px;
-  height: 500px;
-  padding: 120px;
+  height: 600px;
+  padding: 40px;
   margin-right: auto;
   margin-left: auto;
-  margin-top: 70px;
+  margin-top: 90px;
   margin-bottom: 0;
   font-family: 'Oxygen', sans-serif;
   overflow-x: hidden;
@@ -311,6 +322,18 @@ input[type=text]{
   font-family: 'Oxygen', sans-serif;
 }
 
+input[type=number]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #BFB6B6;
+  background-color: #EFEFEF;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: 'Oxygen', sans-serif;
+}
+
 input[type=password]{
   width: 100%;
   padding: 12px 20px;
@@ -324,7 +347,7 @@ input[type=password]{
 }
 
 button[type=button] {
-  width: 20%;
+  width: 95px;
   background-color: #FFFFFF;
   color: #257F69;
   padding: 7px 10px;
@@ -332,8 +355,8 @@ button[type=button] {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  float: right;
   font-family: 'Oxygen', sans-serif;
+  text-align: center;
 }
 
 button[type=button]:hover {
@@ -356,7 +379,7 @@ div.register {
 }
 
 div.register2 {
-  width: 350px;
+  width: 300px;
   height: 100px;
   margin: auto;
   text-align: right;
@@ -364,7 +387,7 @@ div.register2 {
 }
 
 button[type=register] {
-  width: 100%;
+  width: 300%;
   background-color: #EEECEA;
   color: #000000;
   padding: 7px 10px;

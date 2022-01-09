@@ -24,10 +24,7 @@ const loginBtn = document.querySelector("#logginButton");
 //           }
 //         }
 //     }
-//   if(count!=0){
-//   var blob1 = new Blob([username.value],{ type: "text/plain;charset=utf-8" });
-//    saveAs(blob1, "currentUser.txt");
-//   }
+ 
 //   count=0;
 //   readFile.send(null);
 // }
@@ -48,5 +45,5 @@ function check(){
   }
   count=0;
 }
-loginBtn.addEventListener("click",check);
+ loginBtn.addEventListener("click",check);
 

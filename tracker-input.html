@@ -3,41 +3,84 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>Tracker Input</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>JobMeow</title>
+    <link href="style2.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <!--- fonts --->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Blinker:wght@600&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@700&display=swap" rel="stylesheet">
+
+    <!--- icons --->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
   </head>
 
   <body>
-      <!-- Form Fields -->
-      <label for="position">Position Title</label><br>
-      <input type="text"  name = "position" id ="position" required><br><br>
-
-      <label for="company">Company</label><br>
-      <input type="text"  name = "company" id ="company" required><br><br>
-
-      <label for="dateApplied">Date Applied</label><br>
-      <input type="text"  name = "dateApplied" id ="dateApplied" required><br><br>
-
-      <label for="howApplied">Where did you apply?</label><br>
-	  <input type="text"  name = "howApplied" id ="howApplied" required><br><br>
-<!--       <select id="howApplied">
-                <option selected value="">--- Select option ---</option>
-                <option value="Company Site">Company Site</option>
-                <option value="LinkedIn">LinkedIn</option>
-                <option value="Indeed">Indeed</option>
-                <option value="Other">Other</option>
-      </select><br><br> -->
-
-      <label for="salary">What is your estimated salary? ($/hr)</label><br>
-      <input type="number"  name = "salary" id ="salary" required><br><br>
-
-      <!-- Create Record Button -->
-      <button type="button" id = "trackerButton">Create Record</button>
-
-    <script src="trackerForm.js"></script>
-    <script src="FileSaver.js"></script>
+    <!--- top bar --->
+    <div class="header">
+      <nav> 
+        <ul>
+          <li> <img src="Logo.png" /> </li>
+          <li> <a href="home.html">HOME</a></li>
+          <li> <a href="tracker-page.html">TRACKER</a></li>
+          <li> <a href="calendar.html">CALENDAR</a></li>
+          <li> <a href="community.html">COMMUNITY</a></li>
+          <li class="leftS"> <a class="leftA" href="profile.html"><i class="material-icons">account_circle</i></a></li>
+          <li class="leftS"><i class="material-icons">search</i></li>
+          <li class="leftS"> <i class="material-icons">notifications_none</i></li>
+          <li class="leftS"><i class="material-icons">bookmark</i></li>
+        </ul>
+      </nav>
+    </div>
     
+      <!-- Form Fields -->
+      <div class="login">
+      <!--- input new user information --->
+      <h2>NEW <span id="started">ENTRY. </span></h2>
+        <div class="user">
+          <label for="position">Position Title</label><br>
+          <input type="text"  name = "position" id ="position" required><br><br>
+
+          <label for="company">Company</label><br>
+          <input type="text"  name = "company" id ="company" required><br><br>
+
+          <label for="dateApplied">Date Applied</label><br>
+          <input type="text"  name = "dateApplied" id ="dateApplied" required><br><br>
+
+          <label for="howApplied">Where did you apply?</label><br>
+        <input type="text"  name = "howApplied" id ="howApplied" required><br><br>
+    <!--       <select id="howApplied">
+                    <option selected value="">--- Select option ---</option>
+                    <option value="Company Site">Company Site</option>
+                    <option value="LinkedIn">LinkedIn</option>
+                    <option value="Indeed">Indeed</option>
+                    <option value="Other">Other</option>
+          </select><br><br> -->
+
+          <label for="salary">What is your estimated salary? ($/hr)</label><br>
+          <input type="number"  name = "salary" id ="salary" required><br><br>
+        
+        <div class="register2">
+        <a href="tracker-page.html">
+          <!-- Create Record Button -->
+          <button type="button" id = "trackerButton">RECORD</button>
+          <script src="FileSaver.js"></script>
+          <script src="scriptCreateAccount.js"></script>
+
+          <script src="trackerForm.js"></script>
+          <script src="FileSaver.js"></script>
+        </a>
+        
+        </div>
+      </div>
+    </div> 
+
     
     
 
