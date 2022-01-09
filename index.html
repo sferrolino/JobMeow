@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>JobMeow</title>
+	<link href="style1.css" rel="stylesheet" type="text/css" />
+
+  <!--- fonts --->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Blinker:wght@600&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@700&display=swap" rel="stylesheet">
+  
+</head>
+
+<body>
+	<!--- top bar --->
+	<div class="header">
+		<img src="Logo.png" id="logo"/>
+		<h3>JobMeow</h3>
+	</div>
+
+	<!--- how to link to other pages through buttons --->
+  <div class="login">
+    <h2>GET <span id="started">STARTED. </span></h2>
+      <div class="user">
+        <input type="text"  name = "username" id ="username" placeholder="Enter Username" required>
+        <input type="password"  name = "password" id ="password" placeholder="Enter Password" required>
+        <button type="button" id = "logginButton">LOG IN ></button>
+        
+        <script src="script.js"></script>
+        <script src="fileSaver.js"></script>
+        <script src="scriptLoginForm.js"></script>
+      </div>
+      
+    <img src="Register.png" id="register" />
+    <div class="register">
+      <a href="createAccount.html">
+          <button type="register">CREATE ACCOUNT</button>
+      </a>
+    </div>
+  </div>
+
+  </body>
+</html>
