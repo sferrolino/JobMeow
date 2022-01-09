@@ -1,0 +1,133 @@
+body {
+  background-color: #EEECEA;
+}
+
+.header {
+  padding: 10px;
+  text-align: left;
+  background: #257F69;
+  color: #FDFDFD;
+  font-family: 'Pacifico', cursive;
+  font-size: 20px;
+}
+
+#logo {
+  width: 75px;
+  height: 75px;
+  float: left;    
+  margin: 0 15px 0 0;
+}
+
+h2 {
+  font-family: 'Blinker', sans-serif;
+  font-size: 40px;
+  
+}
+
+#started {
+  font-family: 'Blinker', sans-serif;
+  font-size: 40px;
+  color: #257F69;
+}
+.login {
+  background-color: #FFFFFF;
+  width: 700px;
+  height: 500px;
+  padding: 120px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 70px;
+  margin-bottom: 0;
+  font-family: 'Oxygen', sans-serif;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+div.user {
+  width: 500px;
+  height: 200px;
+  margin: auto;
+}
+
+input[type=text]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #BFB6B6;
+  background-color: #EFEFEF;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: 'Oxygen', sans-serif;
+}
+
+input[type=password]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #BFB6B6;
+  background-color: #EFEFEF;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: 'Oxygen', sans-serif;
+}
+
+button[type=button] {
+  width: 20%;
+  background-color: #FFFFFF;
+  color: #257F69;
+  padding: 7px 10px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  font-family: 'Oxygen', sans-serif;
+}
+
+button[type=button]:hover {
+  font-weight: bold;
+  font-family: 'Oxygen', sans-serif;
+}
+
+#register {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+div.register {
+  width: 200px;
+  height: 100px;
+  margin: auto;
+  text-align: center;
+}
+
+div.register2 {
+  width: 350px;
+  height: 100px;
+  margin: auto;
+  text-align: right;
+  float: right;
+}
+
+button[type=register] {
+  width: 100%;
+  background-color: #EEECEA;
+  color: #000000;
+  padding: 7px 10px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Oxygen', sans-serif;
+}
+
+button[type=register]:hover {
+  text-decoration:underline;
+  display:inline-block;
+  text-decoration-color: #257F69;
+  
+}

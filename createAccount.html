@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>How to Create and Save text file in JavaScript</title>
+    <link href="style1.css" rel="stylesheet" type="text/css" />
+    
+    <!--- fonts --->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Blinker:wght@600&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <!--- top bar --->
+	<div class="header">
+		<img src="Logo.png" id="logo"/>
+		<h3>JobMeow</h3>
+	</div>
+  
+  <div class="login">
+    <!--- input new user information --->
+    <h2>NEW <span id="started">USER. </span></h2>
+    <div class="user">
+      <input type="text"  name = "username" id ="username" placeholder="Enter Username" required>
+      <input type="password"  name = "password" id ="password" placeholder="Enter Password" required>
+      <input type="text"  name = "name" id ="name" placeholder="Enter Name" required>
+      <input type="text"  name = "email" id ="email" placeholder="Enter Email" required>
+      <input type="text"  name = "dob" id ="dob" placeholder="Enter Date of Birth" required>
+      <input type="text"  name = "experience" id ="experience" placeholder="Enter Years of Experience" required>
+      <input type="text"  name = "education" id ="education" placeholder="Enter Most Recent Education" required>
+      <input type="text"  name = "bio" id ="bio" placeholder="Bio" required>
+      <input type="text"  name = "field" id ="field" placeholder="Enter Field" required>
+      <input type="text"  name = "tags" id ="tags" placeholder="Enter Job Tags (Sepeate With ',')" required> 
+
+      <div class="register2">
+        <button type="button" id="save"> SAVE ></button>
+        <script src="FileSaver.js"></script>
+        <script src="scriptCreateAccount.js"></script>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

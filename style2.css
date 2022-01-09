@@ -1,0 +1,383 @@
+body {
+  background-color: #FFFFFF;
+  font-family: 'Oxygen', sans-serif;
+}
+
+.header {
+  padding: 10px;
+  text-align: center;
+  background: #257F69;
+  color: #FDFDFD;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 20px;
+}
+
+nav {
+  width: 100%;
+  background-color: #257F69;
+  overflow: auto;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+ul {
+  padding: 0;
+  margin: 0 0 0 15px;
+  list-style: none;
+}
+
+li {
+  float: left;
+}
+
+a {
+  width: 100px;
+  display: block; 
+  margin-right: 20px;
+  padding: 20px 15px;
+  text-decoration: none;
+  font-family: 'Oxygen', sans-serif;
+  color: #FFFFFF;
+  text-align: center;
+  cursor: pointer;
+  
+} 
+
+a:hover {
+  text-decoration: underline; 
+  transition: 0.5s;
+  font-style: bold;
+}
+
+li img{
+  width: 70px;
+  height: 70px;
+  float: left;    
+  margin: 0 15px 0 0;
+}
+
+.active {
+  background-color: #1F6655; 
+}
+
+.leftS {
+  float: right;
+  text-align: center;
+  font-size:50px;
+  margin-right: 40px;
+  cursor: pointer;
+  text-decoration: underline;  
+  font-family: 'Oxygen', sans-serif;
+}
+
+.leftA {
+  float: right;
+  margin-right: 40px;
+  margin-top: -24px;
+  cursor: pointer;
+}
+
+.leftS:hover {
+  text-decoration: underline;  
+  transition: 0.5s;
+  font-style: bold;
+}
+
+div.left {
+  width: 60%;
+  height: 700px;
+  float: left;
+  margin: auto;
+  text-align: center;
+  background-color:#FFFFFF;
+  font-family: 'Oxygen', sans-serif;
+}
+
+h4 {
+  text-align: left;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 70px;
+}
+
+div.right {
+  width: 40%;
+  height: 700px;
+  float: right;
+  margin: auto;
+  text-align: center;
+  background-color: #FFFFFF;
+}
+
+.column 
+{
+  float: left;
+  width: 25%;
+  margin-bottom: 16px;
+}
+
+.row 
+{
+  margin: 0 -5px;
+}
+
+.card {
+  background-color:#EEECEA;
+  box-shadow: lightgrey;
+  border-radius: 25px; 
+  height: 250px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+.card2 {
+  background-color:#EEECEA;
+  box-shadow: lightgrey;
+  border-radius: 25px; 
+  width: 100%;
+  height: 5px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+button[type=info]{
+  margin-top: 90px;
+  width: 50%;
+  padding: 12px 20px;
+  display: inline-block;
+  background-color: #257F69;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: 'Oxygen', sans-serif;
+  color: #FFFFFF
+}
+
+button[type=info4]{
+  margin-top: 30px;
+  width: 50%;
+  padding: 12px 20px;
+  display: inline-block;
+  background-color: #257F69;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: 'Oxygen', sans-serif;
+  color: #FFFFFF
+}
+
+button[type=info2]{
+  margin-top: -8px;
+  width: 50%;
+  padding: 12px 20px;
+  display: inline-block;
+  background-color: #257F69;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: 'Oxygen', sans-serif;
+  color: #FFFFFF
+}
+
+button[type=info3]{
+  margin-top: 30px;
+  width: 50%;
+  padding: 12px 20px;
+  display: inline-block;
+  background-color: #257F69;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: 'Oxygen', sans-serif;
+  color: #FFFFFF
+}
+
+.column2 
+{
+  width: 100%;
+}
+
+.row2
+{
+  width: 100%;
+}
+
+.card3 {
+  background-color:#FFFFFF;
+  box-shadow: lightgrey;
+  border-radius: 25px; 
+  height: 250px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+/* TRACKER PAGE */
+div.rightT {
+  width: 70%;
+  height: 700px;
+  float: right;
+  margin: auto;
+  text-align: center;
+  background-color:#FFFFFF;
+  font-family: 'Oxygen', sans-serif;
+}
+
+div.leftT {
+  width: 30%;
+  height: 700px;
+  float: left;
+  margin: auto;
+  text-align: center;
+  background-color:#FFFFFF;
+  font-family: 'Oxygen', sans-serif;
+}
+
+.card4 {
+  background-color:#FFFFFF;
+  box-shadow: lightgrey;
+  border: 2px solid black;
+  border-radius: 25px; 
+  width: 90%;
+  height: 500px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+button[type=plus] {
+  width: 300px;
+  background-color: #257F69;
+  color: #000000;
+  padding: 7px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Oxygen', sans-serif;
+  text-align: center;
+}
+
+div.register2 {
+  width: 350px;
+  height: 100px;
+  margin: auto;
+  text-align: center;
+  float: center;
+}
+
+.centerAll {
+   margin-left: 100px;
+}
+
+/* profile */
+h2 {
+  font-family: 'Blinker', sans-serif;
+  font-size: 40px;
+  
+}
+
+#started {
+  font-family: 'Blinker', sans-serif;
+  font-size: 40px;
+  color: #257F69;
+}
+.login {
+  background-color: #FFFFFF;
+  width: 700px;
+  height: 500px;
+  padding: 120px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 70px;
+  margin-bottom: 0;
+  font-family: 'Oxygen', sans-serif;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+div.user {
+  width: 500px;
+  height: 200px;
+  margin: auto;
+}
+
+input[type=text]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #BFB6B6;
+  background-color: #EFEFEF;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: 'Oxygen', sans-serif;
+}
+
+input[type=password]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #BFB6B6;
+  background-color: #EFEFEF;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: 'Oxygen', sans-serif;
+}
+
+button[type=button] {
+  width: 20%;
+  background-color: #FFFFFF;
+  color: #257F69;
+  padding: 7px 10px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  font-family: 'Oxygen', sans-serif;
+}
+
+button[type=button]:hover {
+  font-weight: bold;
+  font-family: 'Oxygen', sans-serif;
+}
+
+#register {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+div.register {
+  width: 200px;
+  height: 100px;
+  margin: auto;
+  text-align: center;
+}
+
+div.register2 {
+  width: 350px;
+  height: 100px;
+  margin: auto;
+  text-align: right;
+  float: right;
+}
+
+button[type=register] {
+  width: 100%;
+  background-color: #EEECEA;
+  color: #000000;
+  padding: 7px 10px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Oxygen', sans-serif;
+}
+
+button[type=register]:hover {
+  text-decoration:underline;
+  display:inline-block;
+  text-decoration-color: #257F69;
+  
+}

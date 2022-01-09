@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+    <meta charset="UTF-8" />
     <title>JobMeow</title>
+    
     <link href="style2.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
@@ -19,10 +19,10 @@
     <!--- icons --->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
-  </head>
-  
+</head>
+
   <body>
-    <!--- top bar --->
+     <!--- top bar --->
     <div class="header">
       <nav> 
         <ul>
@@ -38,72 +38,29 @@
         </ul>
       </nav>
     </div>
-   
-    <div class="left">
-      <div class="w3-container">
-        <h4> Most Recent Job Postings </h4>
-        <div class="row">
-          <div class="column">
-            <div class="card">
-              <img src="5.png" style="width:70%" >
-              <button type="info4">INFO</button>
-            </div>
-          </div>
-
-          <div class="column">
-            <div class="card">
-              <img src="6.png" style="width:90%" >
-              <button type="info2">INFO</button>
-            </div>
-          </div>
-
-          <div class="column">
-            <div class="card">
-              <img src="7.png" style="width:80%" >
-              <button type="info3">INFO</button>
-            </div>
-          </div>
-
-          <div class="column">
-            <div class="card">
-              <img src="8.png" style="width:80%" >
-              <button type="info">INFO</button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <hr>
-
-      <div class="w3-container">
-        <h4> Feed </h4>
-        <div class="column2">
-          <div class="row2">
-            <div class="card">
-              
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="right">
-      <div class="w3-container">
-        <a href="calendar.html">
-          <img class="centerAll" src="miniC.png" width:"200px" height="300px"/>
-        </a>
-      </div>
-
-      <hr>
-      
-      <div class="w3-container">
-        <h4> Upcoming Activites </h4>
-        <div class="card3">
-        
-        </div>
-      </div>
-    </div>
     
-    <!--- how to link to other pages through buttons --->
-    <script src="script.js"></script>
+    <div class="login">
+    <!--- input new user information --->
+    <h2>Mahdi<span id="started">Mahira </span></h2>
+    <div class="user">
+      <input type="text"  name = "username" id ="username" placeholder="" required>
+      <input type="password"  name = "password" id ="password" placeholder="Enter Password" required>
+      <input type="text"  name = "name" id ="name" placeholder="Enter Name" required>
+      <input type="text"  name = "email" id ="email" placeholder="Enter Email" required>
+      <input type="text"  name = "dob" id ="dob" placeholder="Enter Date of Birth" required>
+      <input type="text"  name = "experience" id ="experience" placeholder="Enter Years of Experience" required>
+      <input type="text"  name = "education" id ="education" placeholder="Enter Most Recent Education" required>
+      <input type="text"  name = "bio" id ="bio" placeholder="Bio" required>
+      <input type="text"  name = "field" id ="field" placeholder="Enter Field" required>
+      <input type="text"  name = "tags" id ="tags" placeholder="Enter Job Tags (Sepeate With ',')" required> 
+
+      <div class="register2">
+        <button type="button" id="save"> SAVE ></button>
+        <script src="FileSaver.js"></script>
+        <script src="scriptCreateAccount.js"></script>
+      </div>
+    </div>
+  </div>
+  <script src="scriptProfile.js"></script>
   </body>
 </html>
